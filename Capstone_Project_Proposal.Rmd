@@ -1,0 +1,54 @@
+---
+title: "Capstone Project Proposal"
+author: "Roberta Munive"
+date: "April 4, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+##Abstract
+
+This project will create an algorithm that analyzes risk factors, laboratory test results, clinical observations, and symptoms to predict chronic kidney disease in a patient.  The algorithm could be implemented in a clinical decision support system to automate an aspect of the differential diagnosis process. 
+
+##Problem Setup
+
+Chronic kidney disease is characterized by the gradual loss of kidney function over time.  In the early stages of the disease, the patient may experience few noticeable symptoms. The patient may be unaware that there is a problem until irreversible kidney damage has occurred.  Treatment involves slowing the progression of the disease.  Thus, it is crucial that a diagnosis be made as early as possible. 
+
+This project will create an algorithm that analyzes risk factors, laboratory test results, clinical observations, and symptoms to predict chronic kidney disease in a patient. 
+
+##Potential Clients
+
+Clinicians, hospitals, and insurance companies are some of the clients that could benefit from the automated analysis of patient data to predict chronic kidney disease. 
+
+The algorithm developed for this project could be implemented in a clinical decision support system to automate the clinical diagnosis of chronic kidney disease or eliminate it as a possibility during the differential diagnosis process.  Increased efficiency of clinicians and hospital resources can improve delivery of care. 
+
+The algorithm could also be utilized by insurance companies to screen patients for chronic kidney disease.  Catching the disease during the early stages can potentially improve patient outcomes and reduce costs. 
+
+##Data
+
+The two primary causes of chronic kidney disease are diabetes and hypertension.  Other risk factors include age and cardiovascular disease.  Common signs and symptoms include loss of appetite, anemia, and pedal edema.  The algorithm will examine these variables as well as the results of a variety of blood and urine laboratory tests that measure kidney function, heart function, immune response, and inflammation.
+
+A total of twenty-five attributes from four hundred patients will be examined.  Patient variables will be obtained from the Chronic Kidney Disease Data Set available [here](https://archive.ics.uci.edu/ml/datasets/chronic_kidney_disease).  The dataset was donated on July 3, 2015 to the UCI Machine Learning Repository by Dr. P. Soundarapandian, a nephrologist at Apollo Hospital in India and L. Jerlin Rubini and Dr. P. Eswaran of Alagappa University in India.
+
+##Analysis Approach
+
+An algorithm will be developed using linear regression, logistic regression, and decision trees. 
+
+##Deliverables
+
+Deliverables will include R code, a report, and a slide deck.  The code will execute the analysis and automatically predict whether or not the patient has chronic kidney disease.  The report and slide deck will describe the findings as well as the analysis process used to determine the findings.  The report and slide deck will attempt to persuade a fictitious hospital administrator to integrate the algorithm into the clinical decision support system currently in use at the hospital.
+
+##References
+
+About chronic kidney disease. (2017, February 15).  Retrieved from https://www.kidney.org/atoz/content/about-chronic-kidney-disease.
+
+Chronic kidney disease. (2018, March 8).  Retrieved from https://www.mayoclinic.org/diseases-conditions/chronic-kidney-disease/symptoms-causes/syc-20354521.
+
+Dua, D. and Karra Taniskidou, E. (2018).  UCI Machine Learning Repository http://archive.ics.uci.edu/ml.  Irvine, CA:  University of California, School of Information and Computer Science.
+
+
+
