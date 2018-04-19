@@ -2,9 +2,8 @@
 title: "Capstone Project Proposal"
 author: "Roberta Munive"
 date: "April 4, 2018"
-output: 
-  word_document: default
-  html_document: default
+output: github_document
+  
 ---
 
 ```{r setup, include=FALSE}
